@@ -66,9 +66,9 @@ function contains(item, list, cb) {
   // Pass true to the callback if it is, otherwise pass false.
   
     if (list.indexOf(item) >= 0){
-    return true;
+    return cb(true);
   }
-    else return false;  
+    else return cb(false);
 
 }
 
