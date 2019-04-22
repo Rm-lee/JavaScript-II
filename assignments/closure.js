@@ -1,7 +1,20 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
-
-
+function tree(){
+  const height = 45;
+  console.log(height);
+  function bush(){
+    const height = 8;
+    console.log(height);
+    function seedling(){
+      const height = .2;
+      console.log(height);
+    }
+    seedling();
+  }
+  bush();
+}
+ tree();
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
