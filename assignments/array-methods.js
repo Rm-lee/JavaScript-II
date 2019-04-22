@@ -118,3 +118,4 @@ runners.forEach(item => {
 console.log(small.length);
 console.log(medium.length);
 console.log(large.length);
+
